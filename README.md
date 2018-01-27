@@ -54,6 +54,7 @@ User can also use postman instead of curl commands.
 1. The python application runs on localhost at port 5000. User can also use IP of localhost.
 2. /healthcheck gives a 200 OK response and no other output.
 3. If Instance is down /healthcheck will give you error 404
+4. To login to the instance use the username and password provided during the create instance call.
 
 
 
