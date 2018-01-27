@@ -1,0 +1,3 @@
+project=analog-bay-193311
+zone=us-east1-c
+instance_name=kris-tes
