@@ -154,7 +154,7 @@ def instance_creation():
 
 @app.route("/")
 def hello():
-    return "Please use /healthcheck \n or /v1/instances/create methods \n or \n /v1/delete_instance"
+    return "Below methods are supported: \n /healthcheck \n /v1/instances/create \n /v1/delete_instance"
 
 @app.route('/v1/delete_instance', methods=['DELETE'])
 def delete_instance():
@@ -180,12 +180,5 @@ if __name__ == '__main__':
     app.run(host = '0.0.0.0')
     app.debug = True
 
-
-
-
-#curl -H "Content-Type: application/json" -X POST -d '{"username":"kris-user", "password": "Manager123"}' http://localhost:5000/v1/instances/create
-#curl -X DELETE  http://localhost:5000/v1/delete_instance
-#curl http://localhost:5000/
-#curl http://localhost:5000/healthcheck
 
 
