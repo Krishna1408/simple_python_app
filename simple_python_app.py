@@ -110,15 +110,7 @@ def wait_for_operation(compute, project, zone, operation):
 
         time.sleep(1)
 
-@app.route('/foo', methods=['POST'])
-def foo():
-    if not request.json:
-        abort(400)
-    test = request.get_json()
-    user = test['username']
-    id = test['userId']
-    print(user)
-    print(id)
+
 
 
 @app.route('/v1/instances/create', methods=['POST'])
