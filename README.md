@@ -38,7 +38,7 @@ User can update the python file to get more flexibility with instance creation.
    Example:
    project=analog-bay-13434324
    zone=us-east1-c
-   instance_name=instance_name_of_your_choice
+   instance_name=Test-instance
 ```
 
 ## Running the code:
